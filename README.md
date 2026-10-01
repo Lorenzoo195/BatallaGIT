@@ -404,10 +404,25 @@ Al terminar debéis haber realizado:
 ## Preguntas finales
 
 1. ¿Por qué dos personas pueden modificar el mismo archivo sin generar necesariamente un conflicto?
+Porque pueden modificar líneas diferentes que no generen conflicto, sin tocar las mismas líneas
+
 2. ¿Qué provoca que Git considere que existe un conflicto?
+Git considera que hay un conflicto si varios usuarios pushean el mismo código, modifican el mismo fragmento de código, por ello git no sabe cual es el final y en el conflico eres tú quien resukve eso.
+
 3. ¿Un conflicto significa que alguien ha hecho algo mal?
+No, simplemente que el mismo fragmento de código ha sido modificado por varias personas.
+
 4. ¿Quién debe decidir cuál debe ser el código definitivo?
+El equipo es el que debe decidirlo en conjunto.
+
 5. ¿Qué diferencia existe entre `commit`, `push` y `pull`?
+git commit registras el cambio en local, con el push mandas al remoto el commit o la rama, y con pull te bajas los cambios que haya en remoto que no tengas tú en local.
+
 6. ¿Por qué es importante actualizar nuestra copia antes de comenzar nuevo trabajo?
+Por si hay código en remoto que no me he bajado, bajarmelo antes de ponerme a trabajar, para evitar posteriores conflictos.
+
 7. ¿Actualizar antes de empezar garantiza que nunca tendremos conflictos?
+No, pero es una buena practica. 
+
 8. ¿Por qué debemos comprobar que el programa funciona después de resolver un conflicto?
+Para asegurarnos de que no nos hayamos equivocado al resolver el conflicto y todo funciona como debería.
