@@ -6,7 +6,6 @@ string lenguaje = "C#";
 Console.WriteLine($"Lenguaje: {lenguaje}");
 
 
-
 string lenguaje2 = "Java";
 Console.WriteLine($"Lenguaje favorito: {lenguaje2}");
 string alumnoA = "Lorenzo";
@@ -24,3 +23,5 @@ Console.WriteLine("========================");
 Console.WriteLine(".     PROGRAMA TERMINADO");
 Console.WriteLine("       GAME OVER        ");
 Console.WriteLine("========================");
+
+Console.WriteLine($"Hola {alumnoB} creo que ya hemos terminado");
