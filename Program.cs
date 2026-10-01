@@ -7,6 +7,8 @@ Console.WriteLine($"Lenguaje: {lenguaje}");
 
 
 
+string lenguaje2 = "Java";
+Console.WriteLine($"Lenguaje favorito: {lenguaje2}");
 string alumnoA = "Lorenzo";
 Console.WriteLine($"Desarrollador 1: {alumnoA}");
 string equipo = "Los programadores";
