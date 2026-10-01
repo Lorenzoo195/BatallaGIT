@@ -2,6 +2,11 @@
 Console.WriteLine("      EQUIPO C#");
 Console.WriteLine("      DAW DEVELOPERS");
 Console.WriteLine("========================");
+string lenguaje = "C#";
+Console.WriteLine($"Lenguaje: {lenguaje}");
+
+
+
 string alumnoA = "Lorenzo";
 Console.WriteLine($"Desarrollador 1: {alumnoA}");
 string equipo = "Los programadores";
