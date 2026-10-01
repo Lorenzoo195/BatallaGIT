@@ -107,7 +107,11 @@ Integrad ambas ramas.
 
 ¿Ha aparecido algún conflicto?
 
+NO
+
 ¿Por qué Git ha podido integrar automáticamente ambos cambios?
+
+PORQUE NUESTRO CODIGO NO HA INTERFERIDO CON LO QUE HEMOS ESCRITO AMBOS NI CON LO QUE YA ESTABA
 
 ---
 
