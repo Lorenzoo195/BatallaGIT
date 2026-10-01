@@ -304,12 +304,12 @@ Realiza un `commit`.
 
 Antes de continuar, comprobad:
 
-- Qué código tiene el Alumno A.
-- Qué código tiene el Alumno B.
-- Qué código aparece actualmente en GitHub.
+- Qué código tiene el Alumno A: El tiene el main en la version mas reciente
+- Qué código tiene el Alumno B: El tiene una rama creada con un commit creada desde un main de un commit atrasado
+- Qué código aparece actualmente en GitHub: En la rama main el del alumno A pero tambien aparece la nueva rama del alumno B cuyo main esta un con un commit atrasado del main actual.
 
 ¿Son iguales las tres versiones?
-
+    No
 ¿Por qué?
 
 ### Paso 4 — Intentad integrar el trabajo
@@ -329,11 +329,17 @@ El resultado final deberá conservar correctamente el trabajo realizado por ambo
 
 ### Preguntas
 
-1. ¿Por qué el Alumno B estaba trabajando con una versión antigua?
+1. ¿Por qué el Alumno B estaba trabajando con una versión antigua? 
+Porque no se habia hecho un pull desde main con los ultimos cambios
 2. ¿Haber realizado un `commit` significa que tenemos la última versión del proyecto?
+No, significa que desde nuestra ultima version del proyecto en una rama añadimos un commit 
 3. ¿Haber realizado un `push` significa que tenemos los cambios realizados por nuestro compañero?
+No, significa que hemos subido nuestros cambios al remoto
 4. ¿Qué operación permite obtener los cambios del repositorio remoto?
+git pull origin nombre_rama
 5. ¿Qué habría sido recomendable hacer antes de comenzar la nueva funcionalidad?
+
+    El alumno B deberia haber hecho un pull de main antes de cambiarse de rama
 
 ---
 
