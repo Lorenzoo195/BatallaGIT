@@ -14,5 +14,5 @@ Console.WriteLine($"Presupuesto: {presupuesto} €");
 string alumnoB = "Carlos";
 Console.WriteLine($"Desarrollador 2: {alumnoB}");
 Console.WriteLine("========================");
-Console.WriteLine("       FIN");
+Console.WriteLine("       GAME OVER");
 Console.WriteLine("========================");
