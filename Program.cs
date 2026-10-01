@@ -5,7 +5,7 @@ Console.WriteLine("========================");
 string alumnoA = "Lorenzo";
 Console.WriteLine($"Desarrollador 1: {alumnoA}");
 string equipo = "Los programadores";
-int puntos = 500;
+int puntos = 350;
 double presupuesto = 50;
 
 Console.WriteLine($"Equipo: {equipo}");
