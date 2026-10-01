@@ -34,3 +34,5 @@ Console.WriteLine("========================");
 Console.WriteLine(".     PROGRAMA TERMINADO");
 Console.WriteLine("       GAME OVER        ");
 Console.WriteLine("========================");
+
+Console.WriteLine($"Hola {alumnoB} creo que ya hemos terminado");
